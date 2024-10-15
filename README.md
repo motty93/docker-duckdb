@@ -1,9 +1,7 @@
-# 🦆 DuckDB Docker Image
-
-Small docker image with DuckDB included!
-
+# 🦆 DuckDB build docker image
 ## Quickstart
-
 ```bash
-docker run -it --rm davidgasquez/duckdb duckdb
+make build
+
+make run
 ```
